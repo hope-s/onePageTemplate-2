@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login-register.css">
+    <title>صفحه ورود</title>
+</head>
+<body>
+
+    <div class="form-mother">
+        <form>
+            <h1>ورود</h1>
+            <input type="text" required  placeholder="نام کاربری*"  pattern="[A-Za-z]{8,24}" title="بین 8 تا 24 کاراکتر" autofocus>
+            <input type="password" required placeholder="رمز عبور*" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,24}" title=" بین 8 تا 24 کاراکتر و استفاده از اعداد و حرف کوچک و بزرگ">
+            <button type="submit">ورود به حساب کاربری</button>
+            <a href="#">رمز عبور خود را فراموش کرده ام!</a>
+            <a href="register.html">ساخت حساب کاربری  جدید</a>
+        </form>
+    </div>
+
+    <div class="go-to-home">
+        <a href="/index.html">بازگشت به خانه</a>
+    </div>
+
+
+    
+</body>
+</html>

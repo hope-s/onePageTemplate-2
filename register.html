@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login-register.css">
+    <title>صفحه ثبت نام</title>
+</head>
+<body>
+
+    <div class="form-mother padding-30">
+        <form>
+            <h1>ثبت نام</h1>
+            <input type="text" required placeholder="نام کاربری*" pattern="[A-Za-z]{8,24}" title="بین 8 تا 24 کاراکتر" autofocus>
+            <input type="email" required placeholder="ایمیل*" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="ایمیل مجاز  وارد کنید">
+            <input type="password" required placeholder="رمز عبور*" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,24}" title=" بین 8 تا 24 کاراکتر و استفاده از اعداد و حرف کوچک و بزرگ">
+            <input type="password" required placeholder="تکرار رمز عبور*" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,24}" title=" بین 8 تا 24 کاراکتر و استفاده از اعداد و حرف کوچک و بزرگ">
+            <button type="submit">ساخت حساب کاربری</button>
+            <a href="login.html">صفحه ورود</a>
+        </form>
+    </div>
+
+    <div class="go-to-home">
+        <a href="/index.html">بازگشت به خانه</a>
+    </div>
+
+</body>
+</html>
